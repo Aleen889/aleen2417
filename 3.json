@@ -1,0 +1,14 @@
+import json
+a="1+5=?"
+b="5+7=?"
+c="20-13=?"
+d="49/7=?"
+e="25*3=?"
+f="12-4=?"
+g="100/10=?"
+h="4**2=?"
+soultion={a="6",b="12",c="7",d="7",e="75",f="8",g="10",h="16"}
+al=json.dumps(soultion)
+with open ("al.json","W") as k:
+    k.write(al)
+    
